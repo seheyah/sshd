@@ -20,4 +20,4 @@ You can test your OpenSSH server here:
   * [SSH Audith](https://www.sshaudit.com/) 
   * [SSH Check](https://sshcheck.com/)
 
-Have Fun 🐡
+🐡 Have Fun!
