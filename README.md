@@ -1,7 +1,11 @@
-# Seheyah's hardened OpenSSH server configuration
-🎯 This repository hosts my hardened version of OpenSSH server on OpenBSD.
+# sshd_config hardened file
+🎯 This repository hosts my hardened version of OpenSSH server on [OpenBSD](https://www.openbsd.org).
+
+📝 Here the [man](https://man.openbsd.org/sshd_config) for sshd_config.
 
 🛡️ Too many admins overlook SSH configuration when setting up new systems. Unfortunately, the defaults for many operating systems are optimized for compatibility, **not security**❗
+
+## Prerequisites
 
 ## Usage
 * Backup your current file like this:
@@ -15,8 +19,8 @@
 * Reload SSHDaemon
   * `rcctl restart sshd`
 
-## Check new settings
-You can test your OpenSSH server here:
+## Blueteam - Check new settings
+You can test your OpenSSH server configuration here:
   * [SSH Audith](https://www.sshaudit.com/) 
   * [SSH Check](https://sshcheck.com/)
 
