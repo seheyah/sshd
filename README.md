@@ -9,7 +9,7 @@
  * You need to have an account with doas set correctly.
  * You need to create a key for your user:
    * `ssh-keygen -f ~/user-key-ed25519 -t ed25519` -> Enter a passphrase please 😉
-   * `ssh-copy-id -i ~/.ssh/user-key-ed25519 user@host_destination:/.....`
+   * `ssh-copy-id -i ~/.ssh/user-key-ed25519 user@host_destination:/.....`<br>
 Once the public key has been configured on the server, the server will allow any connecting user that has the private key to log in. During the login process, the client proves possession of the private key by digitally signing the key exchange.
 
 ## Usage
